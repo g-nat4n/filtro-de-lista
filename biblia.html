@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="container">
+
+            <h1>Livros da Biblia</h1>
+
+            <form id="bookForm">
+                <label for="bookType">Selecione o Livro:</label>
+                <select name="" id="bookType">
+                    <option value="todos">Todos</option>
+                    <option value="evangelhos">Evangelhos</option>
+                    <option value="cartas">Cartas</option>
+                    <option value="profetas">Profetas </option>
+                    <option value="pentateuco">Pentateuco</option>
+                </select>
+
+                <button type="submit">Filtrar</button>
+            </form>
+
+            <h2>Livros</h2>
+            <ul id="bookList">
+                 <!-- Os livros serão listados aqui -->
+            </ul>
+ 
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
